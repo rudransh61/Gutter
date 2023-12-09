@@ -21,5 +21,5 @@ def get_repo_info(repo_path):
         print(f"  {untracked_file}")
 
 if __name__ == '__main__':
-    repo_path = '../Gutter'  # Replace with the path to your Git repository
+    repo_path = './'  # Replace with the path to your Git repository
     get_repo_info(repo_path)
